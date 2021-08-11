@@ -1,0 +1,38 @@
+- To replace the word where your cursor is with something you will type.
+"ciw {thing you wanna write down}"
+
+- To look up manual
+":h {thing you wanna look up}"
+
+- show all the options of set
+":set" 
+
+- open the manual for the option
+":h '{option}'"
+
+- open the list of options
+":h option-list"
+
+- set up options
+"set {option}"
+*there are mainly 2 types of options: 1)enable/disable a flg and 2)takes in a number or string
+
+- disable options
+"set no{option}"
+
+- toggle options
+"set {option}!
+
+- Show current value of the options
+":set {option}?"
+
+- vimrc
+    - don't put ";" at the end of lines
+    - line starting with "\" is considered as a exess of the former line.
+    - wrap strings with '' or ""
+    - concat strings with "."
+    - if you wrap elements like ['apple', 'orange', 'banana'], that will be a list
+    - if you wrap elements like {'name':'shin', 'favorite':'orange'}, that will be a map
+    - after ", the rest of line will be commented out
+    - Open the manual for the keyword on which your cursor is with "K"
+    
