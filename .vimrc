@@ -3,8 +3,10 @@ scriptencoding utf-8
 set fileencodings=utf-8,cp932,sjis,utf-16le
 set fileformats=unix,dos
 
-execute pathogen#infect()
-execute pathogen#helptags()
+
+call plug#begin('~/.vim/plugged')
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+call plug#end()
 
 syntax enable
 filetype plugin indent on

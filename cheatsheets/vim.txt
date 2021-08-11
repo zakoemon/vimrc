@@ -1,9 +1,66 @@
+*********Normal Mode***********
+
 - To replace the word where your cursor is with something you will type.
 "ciw {thing you wanna write down}"
+
+- To go to the first match of the keyword on which your cursor is.
+"*"
+
+- To toggle capital letter
+"~"
+
+- To increment a number on lines
+"<C-a>"
+
+- To decrement a number on lines
+"<C-x>"
+
+- To increment a number by a specific number
+"9<C-a>"
+
+
+*********Command Mode**********
 
 - To look up manual
 ":h {thing you wanna look up}"
 
+- To go to the previous command
+"<C-p>"
+
+- To go to the next command
+"<C-n>"
+
+- To list out candidates
+"<C-d>"
+
+- To go to next candidate
+"<Tab>"
+
+- To go to previous candidate 
+"<S-Tab>"
+
+- To open the command line window
+"<C-f>"
+
+
+
+*********Visual Mode**********
+
+- To select letters
+"v"
+
+- To select lines
+"V"
+
+- To select blocks
+"<C-v>"
+
+- To recover the selection
+"gv"
+* If you by accident shifted to normal mode while the selection, you can go back to the selection.
+
+
+*********Setting**************
 - show all the options of set
 ":set" 
 
@@ -21,7 +78,7 @@
 "set no{option}"
 
 - toggle options
-"set {option}!
+"set {option}!"
 
 - Show current value of the options
 ":set {option}?"
