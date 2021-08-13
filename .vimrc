@@ -6,6 +6,12 @@ set fileformats=unix,dos
 
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'tpope/vim-commentary'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'vim-scripts/mru.vim'
+let g:vimspector_enable_mappings = 'HUMAN'
+Plug 'puremourning/vimspector'
+Plug 'thinca/vim-quickrun'
 call plug#end()
 
 syntax enable
@@ -22,6 +28,7 @@ set wildmenu
 set iminsert=0
 set hlsearch
 set autoindent
+set foldmethod=indent
 
 set noundofile
 set backup
