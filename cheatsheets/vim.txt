@@ -18,6 +18,38 @@
 - To increment a number by a specific number
 "9<C-a>"
 
+    [Operator]
+
+    "d": cut!
+    "y": yank(copy)
+    "g~": toggle small/capital letter 
+    "gU": to upper case
+    ">": shit indent
+    "=": automatically organize indents
+    "v": select letters in visual mode 
+    "c": change with another text
+
+    [motion]
+    "0", "$": to the first, to the last
+    "w", "W": to 
+    "b", "B": 
+    "gg", "{N}GG": 
+
+    [text object]
+    letter -> "l"
+    word -> "w"
+    WORD -> "W"
+    senstense -> "s"
+    paragraph -> "p"
+    symbols -> "(,[,<,{"
+    quotes -> ", '
+    stuff surrounded by tag -> "t"
+
+    [example]
+    "yap" : yank around the paragraph
+    "di"" : delete inside of the object surrounded by ""
+
+
 
 *********Command Mode**********
 
