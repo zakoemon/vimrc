@@ -12,6 +12,8 @@ Plug 'vim-scripts/mru.vim'
 let g:vimspector_enable_mappings = 'HUMAN'
 Plug 'puremourning/vimspector'
 Plug 'thinca/vim-quickrun'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
 call plug#end()
 
 syntax enable
